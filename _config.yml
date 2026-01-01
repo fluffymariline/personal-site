@@ -6,3 +6,5 @@ logo: /favicon.svg
 last_updated: 2025-10-16 08:54:23 -0700
 plugins:
   - jekyll-seo-tag
+include:
+  - .well-known
