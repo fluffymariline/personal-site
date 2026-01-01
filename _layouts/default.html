@@ -28,6 +28,9 @@
               <div class="titlebar-title">
               (Unnamed window)
               </div>
+              <div class="titlebar-buttons-right">
+                  <button class="window-btn reset-btn"></button>
+              </div>
           </div>
           <section class="window-content">
               <slot />
@@ -60,7 +63,7 @@
           </ul>
           </div>
       </div>
-      <fs-window id="main-window" title="Fluffy Browser" close-enabled="false" maximized="true">
+      <fs-window id="main-window" title="{{ page.title }} - Fluffy Browser" close-enabled="true" maximized="true">
       {{ content }}
 
       </fs-window>
@@ -69,6 +72,16 @@
 
           </section>
       </fs-window>
+      <noscript id="page-content-noscript-wrapper">
+          <div id="sidebar" class="glow">
+              {% include index.md %}
+              <div class="spacer"></div>
+              <span id="time-display-noscript" class="glow">Last updated: <code>{{site.last_updated}}</code></span>
+          </div>
+          <section id="page-content-noscript">
+          {{ content }}
+          </section>
+      </noscript>
       <footer>
           <button id="menu-btn" class="glow"><img alt="Main menu button" src="{{site.logo | relative_url}}" alt="Logo" class="logo"/>FluffyOS</button>
           <div class="minimized-window-list">
@@ -81,5 +94,6 @@
     <script src="{{ "/assets/js/menu.js" | relative_url }}"></script>
     <script src="{{ "/assets/js/time-fixer.js" | relative_url }}"></script>
     <script src="{{ "/assets/js/windows.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/load-manager.js" | relative_url }}"></script>
   </body>
 </html>
