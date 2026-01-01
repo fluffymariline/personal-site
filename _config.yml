@@ -1,9 +1,9 @@
-title: Katie's Website
-author: Katie
-description: Stuff I wanted to share.
+title: The Fluffy System's Website
+author: The Fluffy System
+description: Stuff we wanted to share.
 show_downloads: true
 logo: /favicon.svg
-last_updated: 2025-10-16 08:54:23 -0700
+last_updated: 2025-12-31 21:23:57 -0800
 plugins:
   - jekyll-seo-tag
 include:

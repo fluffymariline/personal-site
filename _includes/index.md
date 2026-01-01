@@ -1,5 +1,5 @@
-<p><a href="/">Home</a></p>
-<p><a href="/notes.html">Notes</a></p>
-<p><a href="/posts">Posts</a></p>
-<p><a href="/links">Links</a></p>
-<p><a href="/music">Music</a></p>
+<li><a href="/">Home</a></li>
+<li><a href="/notes.html">Notes</a></li>
+<li><a href="/posts">Posts</a></li>
+<li><a href="/links">Links</a></li>
+<li><a href="/music">Music</a></li>
