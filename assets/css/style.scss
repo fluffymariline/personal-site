@@ -216,7 +216,7 @@ header {
 footer {
     bottom: 0;
     border-top: 1px solid #000;
-    height: calc(1em + 4px);
+    height: calc(2em + 4px);
     background-color: rgba(0, 0, 0, 0.25);
     user-select: none;
 }
@@ -225,7 +225,7 @@ footer > button,
     background: transparent;
     border: none;
     padding: 2px;
-    height: calc(1em + 4px);
+    height: calc(2em + 4px);
     border-right: 1px solid #000;
     display: flex;
     align-content: center;
@@ -299,7 +299,7 @@ section {
 .menu {
     position: fixed;
     left: 0;
-    bottom: calc(1em + 5px);
+    bottom: calc(2em + 5px);
     backdrop-filter: blur(4px);
     width: 40ch;
     height: 25em;
@@ -544,7 +544,7 @@ fs-window > * {
 @media screen and (height <= 26em) {
     .menu {
         width: 100vw;
-        height: calc(100vh - 1.25em);
+        height: calc(100vh - 2.25em);
         top: 0;
         right: 0;
         border-top-right-radius: 0;
