@@ -202,6 +202,11 @@ footer {
     backdrop-filter: blur(4px);
     cursor: default;
     user-select: none;
+    background-image: url(/assets/img/glass.svg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: 0 0;
 }
 header {
     top: 0;
@@ -212,7 +217,7 @@ footer {
     bottom: 0;
     border-top: 1px solid #000;
     height: calc(1em + 4px);
-    background: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.25);
     user-select: none;
 }
 footer > button,
@@ -302,9 +307,14 @@ section {
     border-top: 1px solid #000;
     border-top-right-radius: calc(8px + 1em);
     display: flex;
+    background-image: url(/assets/img/glass.svg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: 0 0;
     flex-direction: column;
     flex-basis: 0%;
-    background: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.25);
     padding: 1em;
     padding-right: 1.25em;
     z-index: 999999999999;
@@ -450,6 +460,11 @@ fs-window {
     box-sizing: border-box;
     width: 100%;
     height: 100%;
+    background-image: url(/assets/img/glass.svg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: 0 0;
 }
 .maximized:not(.window-resize-handle) {
     inset: 0 !important;
