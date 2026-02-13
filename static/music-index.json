@@ -7,7 +7,7 @@
           "Pokemon Mystery Dungeon - Explorers of the Sky"
         ],
         "type": "Meow",
-        "path": "/static/Meow/074. Memories Returned (Katie's Meow).ogg"
+        "path": "https://assets.fluffymariline.complecwaft.com/Meow/074. Memories Returned (Katie's Meow).ogg"
       },
       {
         "title": "Ending",
@@ -16,7 +16,7 @@
           "Pokemon White"
         ],
         "type": "Meow",
-        "path": "/static/Meow/BWEndingMeow.ogg"
+        "path": "https://assets.fluffymariline.complecwaft.com/Meow/BWEndingMeow.ogg"
       },
       {
         "title": "Kanransya",
@@ -27,7 +27,7 @@
           "Pokemon White 2"
         ],
         "type": "Meow",
-        "path": "/static/Meow/KanransyaMeow.ogg"
+        "path": "https://assets.fluffymariline.complecwaft.com/Meow/KanransyaMeow.ogg"
       },
       {
         "title": "N's Castle Bridge",
@@ -36,7 +36,7 @@
           "Pokemon White"
         ],
         "type": "Meow",
-        "path": "/static/Meow/NCastleBridge.ogg"
+        "path": "https://assets.fluffymariline.complecwaft.com/Meow/NCastleBridge.ogg"
       },
       {
         "title": "N's Castle Bridge",
@@ -45,7 +45,7 @@
           "Pokemon White"
         ],
         "type": "NES",
-        "path": "/static/NES/SEQ_BGM_N_CASTLE_BRIDGE.ogg"
+        "path": "https://assets.fluffymariline.complecwaft.com/NES/SEQ_BGM_N_CASTLE_BRIDGE.ogg"
       },
       {
         "title": "Castelia City",
@@ -56,7 +56,7 @@
             "Pokemon White 2"
         ],
         "type": "NES",
-        "path": "/static/NES/SEQ_BGM_C_03.ogg"
+        "path": "https://assets.fluffymariline.complecwaft.com/NES/SEQ_BGM_C_03.ogg"
       },
       {
         "title": "Team Rocket",
@@ -65,7 +65,7 @@
           "Pokemon Black",
           "Pokemon White"
         ],
-        "path": "/static/Meow/SEQ_BGM_E_SOUND_DESIGNER_KATIES_MEOW.ogg"
+        "path": "https://assets.fluffymariline.complecwaft.com/Meow/SEQ_BGM_E_SOUND_DESIGNER_KATIES_MEOW.ogg"
       },
       {
         "title": "Gym (Winning)",
@@ -76,7 +76,7 @@
           "Pokemon Black 2",
           "Pokemon White 2"
         ],
-        "path": "/static/Meow/WinningGymWithLoop.ogg"
+        "path": "https://assets.fluffymariline.complecwaft.com/Meow/WinningGymWithLoop.ogg"
       },
       {
         "title": "Winter City",
@@ -87,7 +87,7 @@
           "Pokemon Black 2",
           "Pokemon White 2"
         ],
-        "path": "/static/Meow/SEQ_BGM_C_07.ogg"
+        "path": "https://assets.fluffymariline.complecwaft.com/Meow/SEQ_BGM_C_07.ogg"
       },
       {
         "title": "Vs. Single Pokemon (Johto)",
@@ -96,7 +96,7 @@
           "Pokemon HeartGold",
           "Pokemon SoulSilver"
         },
-        "path": "/static/Meow/SEQ_GS_VS_NORAPOKE.ogg"
+        "path": "https://assets.fluffymariline.complecwaft.com/Meow/SEQ_GS_VS_NORAPOKE.ogg"
       },
       {
         "title": "Fast Minigame",
@@ -105,7 +105,7 @@
           "Pokemon HeartGold",
           "Pokemon SoulSilver"
         },
-        "path": "/static/Meow/SEQ_GS_PT_GAMEF_KATIEMAU.ogg"
+        "path": "https://assets.fluffymariline.complecwaft.com/Meow/SEQ_GS_PT_GAMEF_KATIEMAU.ogg"
       },
       {
         "title": "The Sky Runner",
@@ -115,7 +115,7 @@
           "Earthbound",
           "Mother 2"
         ],
-        "path": "/static/Meow/mo2-070.ogg"
+        "path": "https://assets.fluffymariline.complecwaft.com/Meow/mo2-070.ogg"
       },
       {
         "title": "Beware of the Forest's Mushrooms",
@@ -124,7 +124,7 @@
         "games": [
           "Super Mario RPG"
         ],
-        "path": "/static/Meow/smr-128.ogg"
+        "path": "https://assets.fluffymariline.complecwaft.com/Meow/smr-128.ogg"
       },
       {
         "title": "Fight Agains Culex",
@@ -133,7 +133,7 @@
         "games": [
           "Super Mario RPG"
         ],
-        "path": "/static/Meow/smr-207.ogg"
+        "path": "https://assets.fluffymariline.complecwaft.com/Meow/smr-207.ogg"
       },
       {
         "title": "Victory Over Culex",
@@ -142,7 +142,7 @@
         "games": [
           "Super Mario RPG"
         ],
-        "path": "/static/Meow/smr-208.ogg"
+        "path": "https://assets.fluffymariline.complecwaft.com/Meow/smr-208.ogg"
       },
       {
         "title": "Flower Garden",
@@ -151,7 +151,7 @@
         "games": [
           "Yoshi's Island"
         ],
-        "path": "/static/Meow/yi-07.ogg"
+        "path": "https://assets.fluffymariline.complecwaft.com/Meow/yi-07.ogg"
       },
       {
         "title": "Underground",
@@ -160,7 +160,7 @@
         "games": [
           "Yoshi's Island"
         ],
-        "path": "/static/Meow/yi-09.ogg"
+        "path": "https://assets.fluffymariline.complecwaft.com/Meow/yi-09.ogg"
       },
       {
         "title": "Athletic",
@@ -169,7 +169,7 @@
         "games": [
           "Yoshi's Island"
         ],
-        "path": "/static/Meow/yi-13a.ogg"
+        "path": "https://assets.fluffymariline.complecwaft.com/Meow/yi-13a.ogg"
       },
       {
         "title": "Overworld",
@@ -178,7 +178,7 @@
         "games": [
           "Yoshi's Island"
         ],
-        "path": "/static/Meow/yi-14.ogg"
+        "path": "https://assets.fluffymariline.complecwaft.com/Meow/yi-14.ogg"
       }
     ],
     "games": [
