@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-04/schema#",
-	"$id": "https://fluffymariline.complecwaft.com/static/schemas/pluralkit-export.schema.json",
+	"$id": "https://fluffymariline.complecwaft.com/static/schemas/unofficial/pluralkit-export.schema.json",
 	"description": "PluralKit exported JSON",
 	"type": "object",
 	"properties": {
