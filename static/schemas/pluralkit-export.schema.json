@@ -1,519 +1,510 @@
 {
-  "$schema": "http://json-schema.org/draft-04/schema#",
-  "$id": "https://fluffymariline.complecwaft.com/static/schemas/pluralkit-export.schema.json"
-  "description": "PluralKit exported JSON",
-  "type": "object",
-  "properties": {
-    "version": {
-      "type": "number"
-    },
-    "id": {
-      "type": "string",
-      "minLength": 1
-    },
-    "uuid": {
-      "type": "string",
-      "minLength": 1
-    },
-    "name": {
-      "type": "string",
-      "minLength": 1
-    },
-    "description": {
-      "type": "object",
-      "properties": {},
-      "required": []
-    },
-    "tag": {
-      "type": "string",
-      "minLength": 1
-    },
-    "pronouns": {
-      "type": "object",
-      "properties": {},
-      "required": []
-    },
-    "avatar_url": {
-      "type": "object",
-      "properties": {},
-      "required": []
-    },
-    "banner": {
-      "type": "object",
-      "properties": {},
-      "required": []
-    },
-    "color": {
-      "type": "object",
-      "properties": {},
-      "required": []
-    },
-    "created": {
-      "type": "string",
-      "minLength": 1
-    },
-    "webhook_url": {
-      "type": "object",
-      "properties": {},
-      "required": []
-    },
-    "privacy": {
-      "type": "object",
-      "properties": {
-        "name_privacy": {
-          "type": "string",
-          "minLength": 1
-        },
-        "avatar_privacy": {
-          "type": "string",
-          "minLength": 1
-        },
-        "description_privacy": {
-          "type": "string",
-          "minLength": 1
-        },
-        "banner_privacy": {
-          "type": "string",
-          "minLength": 1
-        },
-        "pronoun_privacy": {
-          "type": "string",
-          "minLength": 1
-        },
-        "member_list_privacy": {
-          "type": "string",
-          "minLength": 1
-        },
-        "group_list_privacy": {
-          "type": "string",
-          "minLength": 1
-        },
-        "front_privacy": {
-          "type": "string",
-          "minLength": 1
-        },
-        "front_history_privacy": {
-          "type": "string",
-          "minLength": 1
-        }
-      },
-      "required": [
-        "name_privacy",
-        "avatar_privacy",
-        "description_privacy",
-        "banner_privacy",
-        "pronoun_privacy",
-        "member_list_privacy",
-        "group_list_privacy",
-        "front_privacy",
-        "front_history_privacy"
-      ]
-    },
-    "config": {
-      "type": "object",
-      "properties": {
-        "timezone": {
-          "type": "string",
-          "minLength": 1
-        },
-        "pings_enabled": {
-          "type": "boolean"
-        },
-        "latch_timeout": {
-          "type": "object",
-          "properties": {},
-          "required": []
-        },
-        "member_default_private": {
-          "type": "boolean"
-        },
-        "group_default_private": {
-          "type": "boolean"
-        },
-        "show_private_info": {
-          "type": "boolean"
-        },
-        "member_limit": {
-          "type": "number"
-        },
-        "group_limit": {
-          "type": "number"
-        },
-        "case_sensitive_proxy_tags": {
-          "type": "boolean"
-        },
-        "proxy_error_message_enabled": {
-          "type": "boolean"
-        },
-        "hid_display_split": {
-          "type": "boolean"
-        },
-        "hid_display_caps": {
-          "type": "boolean"
-        },
-        "hid_list_padding": {
-          "type": "string",
-          "minLength": 1
-        },
-        "card_show_color_hex": {
-          "type": "boolean"
-        },
-        "proxy_switch": {
-          "type": "string",
-          "minLength": 1
-        },
-        "name_format": {
-          "type": "object",
-          "properties": {},
-          "required": []
-        },
-        "description_templates": {
-          "type": "array",
-          "items": {
-            "required": [],
-            "properties": {}
-          }
-        }
-      },
-      "required": [
-        "timezone",
-        "pings_enabled",
-        "latch_timeout",
-        "member_default_private",
-        "group_default_private",
-        "show_private_info",
-        "member_limit",
-        "group_limit",
-        "case_sensitive_proxy_tags",
-        "proxy_error_message_enabled",
-        "hid_display_split",
-        "hid_display_caps",
-        "hid_list_padding",
-        "card_show_color_hex",
-        "proxy_switch",
-        "name_format",
-        "description_templates"
-      ]
-    },
-    "accounts": {
-      "type": "array",
-      "items": {
-        "required": [],
-        "properties": {}
-      }
-    },
-    "members": {
-      "type": "array",
-      "uniqueItems": true,
-      "minItems": 1,
-      "items": {
-        "required": [
-          "id",
-          "uuid",
-          "name",
-          "display_name",
-          "color",
-          "pronouns",
-          "avatar_url",
-          "created",
-          "keep_proxy",
-          "tts",
-          "autoproxy_enabled",
-          "message_count",
-          "last_message_timestamp"
-        ],
-        "properties": {
-          "id": {
-            "type": "string",
-            "minLength": 1
-          },
-          "uuid": {
-            "type": "string",
-            "minLength": 1
-          },
-          "name": {
-            "type": "string",
-            "minLength": 1
-          },
-          "display_name": {
-            "type": "string",
-            "minLength": 1
-          },
-          "color": {
-            "type": "string",
-            "minLength": 1
-          },
-          "birthday": {
-            "type": "object",
-            "properties": {},
-            "required": []
-          },
-          "pronouns": {
-            "type": "string",
-            "minLength": 1
-          },
-          "avatar_url": {
-            "type": "string",
-            "minLength": 1
-          },
-          "webhook_avatar_url": {
-            "type": "object",
-            "properties": {},
-            "required": []
-          },
-          "banner": {
-            "type": "object",
-            "properties": {},
-            "required": []
-          },
-          "description": {
-            "type": "object",
-            "properties": {},
-            "required": []
-          },
-          "created": {
-            "type": "string",
-            "minLength": 1
-          },
-          "keep_proxy": {
-            "type": "boolean"
-          },
-          "tts": {
-            "type": "boolean"
-          },
-          "autoproxy_enabled": {
-            "type": "boolean"
-          },
-          "message_count": {
-            "type": "number"
-          },
-          "last_message_timestamp": {
-            "type": "string",
-            "minLength": 1
-          },
-          "proxy_tags": {
-            "type": "array",
-            "uniqueItems": true,
-            "minItems": 1,
-            "items": {
-              "required": [
-                "prefix"
-              ],
-              "properties": {
-                "prefix": {
-                  "type": "string",
-                  "minLength": 1
-                },
-                "suffix": {
-                  "type": "object",
-                  "properties": {},
-                  "required": []
-                }
-              }
-            }
-          },
-          "privacy": {
-            "type": "object",
-            "properties": {
-              "visibility": {
-                "type": "string",
-                "minLength": 1
-              },
-              "name_privacy": {
-                "type": "string",
-                "minLength": 1
-              },
-              "description_privacy": {
-                "type": "string",
-                "minLength": 1
-              },
-              "banner_privacy": {
-                "type": "string",
-                "minLength": 1
-              },
-              "birthday_privacy": {
-                "type": "string",
-                "minLength": 1
-              },
-              "pronoun_privacy": {
-                "type": "string",
-                "minLength": 1
-              },
-              "avatar_privacy": {
-                "type": "string",
-                "minLength": 1
-              },
-              "metadata_privacy": {
-                "type": "string",
-                "minLength": 1
-              },
-              "proxy_privacy": {
-                "type": "string",
-                "minLength": 1
-              }
-            },
-            "required": [
-              "visibility",
-              "name_privacy",
-              "description_privacy",
-              "banner_privacy",
-              "birthday_privacy",
-              "pronoun_privacy",
-              "avatar_privacy",
-              "metadata_privacy",
-              "proxy_privacy"
-            ]
-          }
-        }
-      }
-    },
-    "groups": {
-      "type": "array",
-      "uniqueItems": true,
-      "minItems": 1,
-      "items": {
-        "required": [
-          "id",
-          "uuid",
-          "name",
-          "created"
-        ],
-        "properties": {
-          "id": {
-            "type": "string",
-            "minLength": 1
-          },
-          "uuid": {
-            "type": "string",
-            "minLength": 1
-          },
-          "name": {
-            "type": "string",
-            "minLength": 1
-          },
-          "display_name": {
-            "type": "object",
-            "properties": {},
-            "required": []
-          },
-          "description": {
-            "type": "object",
-            "properties": {},
-            "required": []
-          },
-          "icon": {
-            "type": "object",
-            "properties": {},
-            "required": []
-          },
-          "banner": {
-            "type": "object",
-            "properties": {},
-            "required": []
-          },
-          "color": {
-            "type": "object",
-            "properties": {},
-            "required": []
-          },
-          "created": {
-            "type": "string",
-            "minLength": 1
-          },
-          "members": {
-            "type": "array",
-            "items": {
-              "required": [],
-              "properties": {}
-            }
-          },
-          "privacy": {
-            "type": "object",
-            "properties": {
-              "name_privacy": {
-                "type": "string",
-                "minLength": 1
-              },
-              "description_privacy": {
-                "type": "string",
-                "minLength": 1
-              },
-              "banner_privacy": {
-                "type": "string",
-                "minLength": 1
-              },
-              "icon_privacy": {
-                "type": "string",
-                "minLength": 1
-              },
-              "list_privacy": {
-                "type": "string",
-                "minLength": 1
-              },
-              "metadata_privacy": {
-                "type": "string",
-                "minLength": 1
-              },
-              "visibility": {
-                "type": "string",
-                "minLength": 1
-              }
-            },
-            "required": [
-              "name_privacy",
-              "description_privacy",
-              "banner_privacy",
-              "icon_privacy",
-              "list_privacy",
-              "metadata_privacy",
-              "visibility"
-            ]
-          }
-        }
-      }
-    },
-    "switches": {
-      "type": "array",
-      "uniqueItems": true,
-      "minItems": 1,
-      "items": {
-        "required": [
-          "timestamp"
-        ],
-        "properties": {
-          "timestamp": {
-            "type": "string",
-            "minLength": 1
-          },
-          "members": {
-            "type": "array",
-            "items": {
-              "required": [],
-              "properties": {}
-            }
-          }
-        }
-      }
-    }
-  },
-  "required": [
-    "version",
-    "id",
-    "uuid",
-    "name",
-    "description",
-    "tag",
-    "pronouns",
-    "avatar_url",
-    "banner",
-    "color",
-    "created",
-    "webhook_url",
-    "privacy",
-    "config",
-    "accounts",
-    "members",
-    "groups",
-    "switches"
-  ]
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"$id": "https://fluffymariline.complecwaft.com/static/schemas/pluralkit-export.schema.json",
+	"description": "PluralKit exported JSON",
+	"type": "object",
+	"properties": {
+		"version": {
+			"type": "number"
+		},
+		"id": {
+			"type": "string",
+			"minLength": 1
+		},
+		"uuid": {
+			"type": "string",
+			"minLength": 1
+		},
+		"name": {
+			"type": "string",
+			"minLength": 1
+		},
+		"description": {
+			"type": "object",
+			"properties": {},
+			"required": []
+		},
+		"tag": {
+			"type": "string",
+			"minLength": 1
+		},
+		"pronouns": {
+			"type": "object",
+			"properties": {},
+			"required": []
+		},
+		"avatar_url": {
+			"type": "object",
+			"properties": {},
+			"required": []
+		},
+		"banner": {
+			"type": "object",
+			"properties": {},
+			"required": []
+		},
+		"color": {
+			"type": "object",
+			"properties": {},
+			"required": []
+		},
+		"created": {
+			"type": "string",
+			"minLength": 1
+		},
+		"webhook_url": {
+			"type": "object",
+			"properties": {},
+			"required": []
+		},
+		"privacy": {
+			"type": "object",
+			"properties": {
+				"name_privacy": {
+					"type": "string",
+					"minLength": 1
+				},
+				"avatar_privacy": {
+					"type": "string",
+					"minLength": 1
+				},
+				"description_privacy": {
+					"type": "string",
+					"minLength": 1
+				},
+				"banner_privacy": {
+					"type": "string",
+					"minLength": 1
+				},
+				"pronoun_privacy": {
+					"type": "string",
+					"minLength": 1
+				},
+				"member_list_privacy": {
+					"type": "string",
+					"minLength": 1
+				},
+				"group_list_privacy": {
+					"type": "string",
+					"minLength": 1
+				},
+				"front_privacy": {
+					"type": "string",
+					"minLength": 1
+				},
+				"front_history_privacy": {
+					"type": "string",
+					"minLength": 1
+				}
+			},
+			"required": [
+				"name_privacy",
+				"avatar_privacy",
+				"description_privacy",
+				"banner_privacy",
+				"pronoun_privacy",
+				"member_list_privacy",
+				"group_list_privacy",
+				"front_privacy",
+				"front_history_privacy"
+			]
+		},
+		"config": {
+			"type": "object",
+			"properties": {
+				"timezone": {
+					"type": "string",
+					"minLength": 1
+				},
+				"pings_enabled": {
+					"type": "boolean"
+				},
+				"latch_timeout": {
+					"type": "object",
+					"properties": {},
+					"required": []
+				},
+				"member_default_private": {
+					"type": "boolean"
+				},
+				"group_default_private": {
+					"type": "boolean"
+				},
+				"show_private_info": {
+					"type": "boolean"
+				},
+				"member_limit": {
+					"type": "number"
+				},
+				"group_limit": {
+					"type": "number"
+				},
+				"case_sensitive_proxy_tags": {
+					"type": "boolean"
+				},
+				"proxy_error_message_enabled": {
+					"type": "boolean"
+				},
+				"hid_display_split": {
+					"type": "boolean"
+				},
+				"hid_display_caps": {
+					"type": "boolean"
+				},
+				"hid_list_padding": {
+					"type": "string",
+					"minLength": 1
+				},
+				"card_show_color_hex": {
+					"type": "boolean"
+				},
+				"proxy_switch": {
+					"type": "string",
+					"minLength": 1
+				},
+				"name_format": {
+					"type": "object",
+					"properties": {},
+					"required": []
+				},
+				"description_templates": {
+					"type": "array",
+					"items": {
+						"required": [],
+						"properties": {}
+					}
+				}
+			},
+			"required": [
+				"timezone",
+				"pings_enabled",
+				"latch_timeout",
+				"member_default_private",
+				"group_default_private",
+				"show_private_info",
+				"member_limit",
+				"group_limit",
+				"case_sensitive_proxy_tags",
+				"proxy_error_message_enabled",
+				"hid_display_split",
+				"hid_display_caps",
+				"hid_list_padding",
+				"card_show_color_hex",
+				"proxy_switch",
+				"name_format",
+				"description_templates"
+			]
+		},
+		"accounts": {
+			"type": "array",
+			"items": {
+				"required": [],
+				"properties": {}
+			}
+		},
+		"members": {
+			"type": "array",
+			"uniqueItems": true,
+			"minItems": 1,
+			"items": {
+				"required": [
+					"id",
+					"uuid",
+					"name",
+					"display_name",
+					"color",
+					"pronouns",
+					"avatar_url",
+					"created",
+					"keep_proxy",
+					"tts",
+					"autoproxy_enabled",
+					"message_count",
+					"last_message_timestamp"
+				],
+				"properties": {
+					"id": {
+						"type": "string",
+						"minLength": 1
+					},
+					"uuid": {
+						"type": "string",
+						"minLength": 1
+					},
+					"name": {
+						"type": "string",
+						"minLength": 1
+					},
+					"display_name": {
+						"type": "string",
+						"minLength": 1
+					},
+					"color": {
+						"type": "string",
+						"minLength": 1
+					},
+					"birthday": {
+						"type": "object",
+						"properties": {},
+						"required": []
+					},
+					"pronouns": {
+						"type": "string",
+						"minLength": 1
+					},
+					"avatar_url": {
+						"type": "string",
+						"minLength": 1
+					},
+					"webhook_avatar_url": {
+						"type": "object",
+						"properties": {},
+						"required": []
+					},
+					"banner": {
+						"type": "object",
+						"properties": {},
+						"required": []
+					},
+					"description": {
+						"type": "object",
+						"properties": {},
+						"required": []
+					},
+					"created": {
+						"type": "string",
+						"minLength": 1
+					},
+					"keep_proxy": {
+						"type": "boolean"
+					},
+					"tts": {
+						"type": "boolean"
+					},
+					"autoproxy_enabled": {
+						"type": "boolean"
+					},
+					"message_count": {
+						"type": "number"
+					},
+					"last_message_timestamp": {
+						"type": "string",
+						"minLength": 1
+					},
+					"proxy_tags": {
+						"type": "array",
+						"uniqueItems": true,
+						"minItems": 1,
+						"items": {
+							"required": ["prefix"],
+							"properties": {
+								"prefix": {
+									"type": "string",
+									"minLength": 1
+								},
+								"suffix": {
+									"type": "object",
+									"properties": {},
+									"required": []
+								}
+							}
+						}
+					},
+					"privacy": {
+						"type": "object",
+						"properties": {
+							"visibility": {
+								"type": "string",
+								"minLength": 1
+							},
+							"name_privacy": {
+								"type": "string",
+								"minLength": 1
+							},
+							"description_privacy": {
+								"type": "string",
+								"minLength": 1
+							},
+							"banner_privacy": {
+								"type": "string",
+								"minLength": 1
+							},
+							"birthday_privacy": {
+								"type": "string",
+								"minLength": 1
+							},
+							"pronoun_privacy": {
+								"type": "string",
+								"minLength": 1
+							},
+							"avatar_privacy": {
+								"type": "string",
+								"minLength": 1
+							},
+							"metadata_privacy": {
+								"type": "string",
+								"minLength": 1
+							},
+							"proxy_privacy": {
+								"type": "string",
+								"minLength": 1
+							}
+						},
+						"required": [
+							"visibility",
+							"name_privacy",
+							"description_privacy",
+							"banner_privacy",
+							"birthday_privacy",
+							"pronoun_privacy",
+							"avatar_privacy",
+							"metadata_privacy",
+							"proxy_privacy"
+						]
+					}
+				}
+			}
+		},
+		"groups": {
+			"type": "array",
+			"uniqueItems": true,
+			"minItems": 1,
+			"items": {
+				"required": ["id", "uuid", "name", "created"],
+				"properties": {
+					"id": {
+						"type": "string",
+						"minLength": 1
+					},
+					"uuid": {
+						"type": "string",
+						"minLength": 1
+					},
+					"name": {
+						"type": "string",
+						"minLength": 1
+					},
+					"display_name": {
+						"type": "object",
+						"properties": {},
+						"required": []
+					},
+					"description": {
+						"type": "object",
+						"properties": {},
+						"required": []
+					},
+					"icon": {
+						"type": "object",
+						"properties": {},
+						"required": []
+					},
+					"banner": {
+						"type": "object",
+						"properties": {},
+						"required": []
+					},
+					"color": {
+						"type": "object",
+						"properties": {},
+						"required": []
+					},
+					"created": {
+						"type": "string",
+						"minLength": 1
+					},
+					"members": {
+						"type": "array",
+						"items": {
+							"required": [],
+							"properties": {}
+						}
+					},
+					"privacy": {
+						"type": "object",
+						"properties": {
+							"name_privacy": {
+								"type": "string",
+								"minLength": 1
+							},
+							"description_privacy": {
+								"type": "string",
+								"minLength": 1
+							},
+							"banner_privacy": {
+								"type": "string",
+								"minLength": 1
+							},
+							"icon_privacy": {
+								"type": "string",
+								"minLength": 1
+							},
+							"list_privacy": {
+								"type": "string",
+								"minLength": 1
+							},
+							"metadata_privacy": {
+								"type": "string",
+								"minLength": 1
+							},
+							"visibility": {
+								"type": "string",
+								"minLength": 1
+							}
+						},
+						"required": [
+							"name_privacy",
+							"description_privacy",
+							"banner_privacy",
+							"icon_privacy",
+							"list_privacy",
+							"metadata_privacy",
+							"visibility"
+						]
+					}
+				}
+			}
+		},
+		"switches": {
+			"type": "array",
+			"uniqueItems": true,
+			"minItems": 1,
+			"items": {
+				"required": ["timestamp"],
+				"properties": {
+					"timestamp": {
+						"type": "string",
+						"minLength": 1
+					},
+					"members": {
+						"type": "array",
+						"items": {
+							"required": [],
+							"properties": {}
+						}
+					}
+				}
+			}
+		}
+	},
+	"required": [
+		"version",
+		"id",
+		"uuid",
+		"name",
+		"description",
+		"tag",
+		"pronouns",
+		"avatar_url",
+		"banner",
+		"color",
+		"created",
+		"webhook_url",
+		"privacy",
+		"config",
+		"accounts",
+		"members",
+		"groups",
+		"switches"
+	]
 }
